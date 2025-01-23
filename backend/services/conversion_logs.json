@@ -1,0 +1,42 @@
+[
+  {
+    "date": "2025-01-23",
+    "from": "USD",
+    "to": "PKR",
+    "amount": 1000,
+    "convertedAmount": 279894.655,
+    "exchangeRate": 279.894655
+  },
+  {
+    "date": "2025-01-23",
+    "from": "USD",
+    "to": "PKR",
+    "amount": 1000,
+    "convertedAmount": 279894.655,
+    "exchangeRate": 279.894655
+  },
+  {
+    "date": "2025-01-23",
+    "from": "USD",
+    "to": "PKR",
+    "amount": 1000,
+    "convertedAmount": 279894.655,
+    "exchangeRate": 279.894655
+  },
+  {
+    "date": "2025-01-23",
+    "from": "USD",
+    "to": "EUR",
+    "amount": 3803,
+    "convertedAmount": 3654.397775,
+    "exchangeRate": 0.960925
+  },
+  {
+    "date": "2025-01-23",
+    "from": "USD",
+    "to": "EUR",
+    "amount": 2,
+    "convertedAmount": 1.92185,
+    "exchangeRate": 0.960925
+  }
+]

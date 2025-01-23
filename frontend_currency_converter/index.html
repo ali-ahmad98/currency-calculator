@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <form id="currencyForm">
+      <h1>Currency Converter</h1>
+
+      <label for="from">From:</label>
+      <select id="from" required>
+        <!-- Options will be dynamically inserted here -->
+      </select>
+
+      <label for="to">To:</label>
+      <select id="to" required>
+        <!-- Options will be dynamically inserted here -->
+      </select>
+
+      <label for="amount">Amount:</label>
+      <input type="number" id="amount" placeholder="Amount" required />
+
+      <button type="submit">Convert</button>
+
+      <div id="result">
+        <!-- Result will be dynamically inserted here -->
+      </div>
+    </form>
+
+    <div>
+      <h1>Convertersion History</h1>
+      <table class="styled-table">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>From</th>
+            <th>To</th>
+            <th>Amount</th>
+            <th>Converted Amount</th>
+            <th>Exc Rate</th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+          <!-- Rows will be dynamically inserted here -->
+        </tbody>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
